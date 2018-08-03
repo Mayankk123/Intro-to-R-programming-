@@ -1,0 +1,48 @@
+#datatypes
+vr=c('mayank')
+vr1=c(123)
+vr2=c(12.3)
+vr3=list(vr,vr1,vr2)
+var=c(25)
+var1=c(60)
+print(var=var1)
+
+a=25
+b=42
+print(a==b)
+print(a<=b)
+25->x#assignment operator
+print(a==x)
+value1=c(TRUE,FALSE,TRUE,FALSE)
+value2=c(TRUE,TRUE,FALSE,TRUE)
+print(value1& value2)#AND
+print(value1&&value2)#LOGICAL AND
+print(value1||value2)#LOGICAL OR
+#conditional statement
+var1=40
+var2=35
+if((var1+var2)>=50){
+  print("value os grater than 50")
+#case more than one condtion
+}else if((var1+var2)>50){
+print("value is greater than 50")
+}else if((var1+var2)<50){
+print("value is less than 50")
+}else
+  print("Fail")
+#cases
+
+switch("m",           #invalid data
+       '1'=print("monday"),
+       '2'=print("tuesday"),
+       '3'=print("wednesday"),
+       '4'=print("thrusday"),
+       '5'=print("friday"),
+       '6'=print("saturday"),
+       '7'=print("sunday"),
+       
+print("Invalid input")
+)
+
+
+
